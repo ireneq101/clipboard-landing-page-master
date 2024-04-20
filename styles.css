@@ -1,0 +1,1174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+  /* margin: 5% 0; */
+  padding: 6% 0 3% 0;
+}
+
+header > nav {
+  margin: 0 auto;
+  width: 7%;
+  /* padding: 5% 0; */
+}
+
+header > nav img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+}
+
+section > div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+section > div > .div1 > h2 {
+  color: #4C545C;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04688rem;
+  padding-bottom: 1%;
+}
+
+section > div > .div1 > p {
+  color: #9EABB2;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem; /* 150% */
+  letter-spacing: 0.00938rem;
+  padding-bottom: 3%;
+  max-width: 45%;
+  margin: 0 auto;
+}
+
+section > div > .div2 {
+  gap: 5%;
+  display: flex;
+  margin: 0 auto;
+  /* width: 100%; */
+  width: 30%;
+}
+
+section > div > .div2 > button {
+  border: none;
+  border-radius: 1.75rem;
+  background: #26BBA4;
+  box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset, 0px 10px 20px 0px rgba(137, 229, 199, 0.50);
+  width: 50%;
+  padding: 1rem 1.1rem;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.03125rem;
+  transition: all 0.3s ease-in-out;
+}
+
+section > div > .div2 > button:hover {
+  background-color: #53dfca;
+}
+
+section > div > .div2 > button:last-child {
+  border-radius: 28px;
+  background: #6174FF;
+  box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset, 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
+  color: #FFF;
+}
+
+section > div > .div2 > button:last-child:hover {
+  background: #8e9af5;
+}
+
+.keeping {
+  width: 100%;
+  margin: 10% 0 5% 0;
+}
+
+.keeping > div {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.keeping > div > h3 {
+  color: #4C545C;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.03669rem;
+  padding-bottom: 2%;
+}
+
+.keeping > div > p {
+  color: #9EABB2;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 1.175rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.00844rem;
+}
+
+.computer {
+  display: flex;
+  width: 100%;
+  gap: 10%;
+}
+
+.computer > .div1 {
+  width: 50%;
+}
+
+.computer > .div1 > img {
+  width: 100%;
+}
+
+.computer > .div2 {
+  width: 45%;
+  text-align: left;
+  padding-top: 4%;
+  gap: 56px;
+}
+
+.computer > .div2 > .semi-div {
+  width: 60%;
+  /* text-align: center; */
+}
+
+.computer > .div2 > .semi-div > h5 {
+  color: #4C545C;
+  font-family: "Bai Jamjuree";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.391px;
+}
+
+.computer > .div2 > .semi-div > p {
+  color: #9EABB2;
+  font-family: "Bai Jamjuree";
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.12px;
+}
+
+.access-section {
+  width: 100%;
+  margin: 9% 0 0 0;
+}
+
+.access-section > div {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.access-section > div > h3 {
+  color: #4C545C;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.587px;
+  padding-bottom: 2%;
+}
+
+.access-section > div > p {
+  color: #9EABB2;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 1.175rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.135px;
+  padding-bottom: 9%;
+}
+
+.access-section > .image {
+  width: 60%;
+}
+
+.access-section > .image > img {
+  width: 100%;
+  text-align: center;
+}
+
+.workflow {
+  width: 100%;
+  text-align: center;
+}
+
+.workflow > h3 {
+  color: #4C545C;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.587px;
+  padding-bottom: 2%;
+}
+
+.workflow > p{
+  color: #9EABB2;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 1.175rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.135px;
+}
+
+.icons {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  align-items: center;
+  gap: 2%;
+  padding: 0 10%;
+  margin-top: 5%;
+}
+
+.icons > .create {
+  width: 100%;
+}
+
+.icons > .create > img {
+  width: 15%;
+  margin: 0 auto;
+  padding-bottom: 10%;
+}
+
+.icons > .create:nth-child(2) img {
+  width: 12%;
+  padding-bottom: 8%;
+}
+
+.icons > .create > h5 {
+  color: #4C545C;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.391px;
+  padding-bottom: 2%;
+}
+
+.icons > .create > p {
+  color: #9EABB2;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.12px;
+}
+
+.logos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-items: center;
+  align-items: center;
+  gap: 2%;
+  padding: 0 5%;
+  margin: 10% 0;
+}
+
+.logos > .google {
+  width: 70%;
+}
+
+.logos > .google > img {
+  width: 100%;
+}
+
+.clipboard {
+  width: 100%;
+  align-content: center;
+}
+
+.clipboard > div {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.clipboard > div > h3 {
+  color: #4C545C;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.587px;
+  padding-bottom: 2%;
+}
+
+.clipboard > div > p {
+  color: #9EABB2;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 1.175rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.135px;
+  padding-bottom: 6%;
+}
+
+.clipboard > .btn {
+  gap: 5%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  /* width: 100%; */
+  width: 30%;
+}
+
+.clipboard > .btn > button {
+  border: none;
+  border-radius: 1.75rem;
+  background: #26BBA4;
+  box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset, 0px 10px 20px 0px rgba(137, 229, 199, 0.50);
+  width: 50%;
+  padding: 1rem 1.1rem;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.03125rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.clipboard > .btn > button:hover {
+  background-color: #53dfca;
+}
+
+.clipboard > .btn > button:last-child {
+  border-radius: 28px;
+  background: #6174FF;
+  box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset, 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
+  color: #FFF;
+}
+
+.clipboard > .btn > button:last-child:hover {
+  background: #8e9af5;
+}
+
+footer {
+  width: 100%;
+  background: rgb(244, 246, 247);
+  display: grid;
+  grid-template-columns: 17% 15% 15% 15% 35%;
+  /* grid-template-columns: auto auto auto auto auto; */
+  padding: 5% 0 5% 7%;
+  align-content: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+footer > .image {
+  width: 100%;
+  text-align: left;
+}
+
+footer > .image > img {
+  width: 30%;
+}
+
+footer > .div1 {
+  align-content: center;
+  justify-content: center;
+  text-align: left;
+}
+
+footer > .div1 > p, .div2 > p {
+  color: #4C545C;
+  font-family: "Bai Jamjuree";
+  font-size: 1.175rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.135px;
+  padding-bottom: 12px;
+}
+
+footer > .div1 > p:hover, .div2 > p:hover {
+  color: #26BBA4;
+}
+
+footer > .social-icons {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 7%;
+}
+
+footer > .social-icons > img {
+  width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  header {
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    /* margin: 5% 0; */
+    padding: 25% 0;
+  }
+  
+  header > nav {
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+  }
+  
+  header > nav img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  section {
+    width: 100%;
+  }
+
+  section > div {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    padding: 0 3%;
+  }
+  
+  section > div > .div1 > h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 10%;
+  }
+  
+  section > div > .div1 > p {
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    max-width: 95%;
+    padding-bottom: 15%;
+  }
+  
+  section > div > .div2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* width: 100%; */
+    width: 80%;
+  }
+  
+  section > div > .div2 > button {
+    width: 100%;
+    padding: 1rem 1.1rem;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10%;
+  }
+  
+  section > div > .div2 > button:hover {
+    background-color: #53dfca;
+  }
+  
+  section > div > .div2 > button:last-child:hover {
+    background: #8e9af5;
+  }
+  
+  .keeping {
+    width: 100%;
+    margin: 23% 0 25% 0;
+  }
+  
+  .keeping > div {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .keeping > div > h3 {
+    font-size: 1.8rem;
+    letter-spacing: -0.457px;
+    padding-bottom: 8%;
+  }
+  
+  .keeping > div > p {
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+  }
+  
+  .computer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10%;
+  }
+  
+  .computer > .div1 {
+    width: 100%;
+  }
+  
+  .computer > .div1 > img {
+    width: 85%;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+  }
+  
+  .computer > .div2 {
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 24%;
+    gap: 56px;
+  }
+  
+  .computer > .div2 > .semi-div {
+    width: 90%;
+    /* text-align: center; */
+  }
+  
+  .computer > .div2 > .semi-div > h5 {
+    font-size: 1.8rem;
+    letter-spacing: -0.391px;
+    padding-bottom: 3%;
+  }
+  
+  .computer > .div2 > .semi-div > p {
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+  }
+  
+  .access-section {
+    width: 100%;
+    margin: 54% 0 0 0;
+  }
+  
+  .access-section > div {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .access-section > div > h3 {
+    font-size: 1.8rem;
+    letter-spacing: -0.457px;
+    padding-bottom: 4%;
+  }
+  
+  .access-section > div > p {
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    padding-bottom: 14%;
+  }
+  
+  .access-section > .image {
+    width: 85%;
+  }
+  
+  .access-section > .image > img {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .workflow {
+    width: 100%;
+    text-align: center;
+    margin: 25% 0;
+    padding: 0 3%;
+  }
+  
+  .workflow > h3 {
+    font-size: 1.8rem;
+    letter-spacing: -0.457px;
+  }
+  
+  .workflow > p{
+    font-size: 1rem;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+  }
+  
+  .icons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+    gap: 15%;
+    padding: 0;
+    margin: 25% 0;
+  }
+  
+  .icons > .create {
+    width: 90%;
+  }
+  
+  .icons > .create > img {
+    width: 15%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+  }
+  
+  .icons > .create:nth-child(2) img {
+    width: 15%;
+    padding-bottom: 8%;
+  }
+  
+  .icons > .create > h5 {
+    font-size: 1.5rem;
+    line-height: normal;
+    letter-spacing: -0.391px;
+  }
+  
+  .icons > .create > p {
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    max-width: 100%;
+  }
+  
+  .logos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+    gap: 30%;
+    padding: 0 5%;
+    margin: 80% 0;
+  }
+  
+  .logos > .google {
+    width: 50%;
+  }
+  
+  .logos > .google > img {
+    width: 100%;
+  }
+  
+  .clipboard {
+    width: 100%;
+    align-content: center;
+    /* margin: 55% 0; */
+    padding: 50% 0 20% 0;
+  }
+  
+  .clipboard > div {
+    width: 90%;
+    margin: 0 auto;
+    /* padding: 0 5%; */
+  }
+  
+  .clipboard > div > h3 {
+    font-size: 1.8rem;
+    letter-spacing: -0.457px;
+    padding-bottom: 5%;
+  }
+  
+  .clipboard > div > p {
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    max-width: 100%;
+    padding-bottom: 15%;
+  }
+  
+  .clipboard > .btn {
+    gap: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .clipboard > .btn > button {
+    /* margin: 0 auto; */
+    width: 100%;
+    padding: 1rem 1.1rem;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10%;
+  }
+  
+  .clipboard > .btn > button:hover {
+    background-color: #53dfca;
+  }
+  
+  .clipboard > .btn > button:last-child:hover {
+    background: #8e9af5;
+  }
+  
+  footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 20%;
+    margin-top: 10%;
+  }
+  
+  footer > .image {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35%;
+  }
+  
+  footer > .image > img {
+    width: 50%;
+  }
+  
+  footer > .div1 {
+    text-align: center;
+    width: 100%;
+  }
+  
+  footer > .div1 > p, .div2 > p {
+    font-size: 1.115rem;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    text-align: center;
+    padding: 0 0 14% 0;
+  }
+  
+  footer > .div1 > p:hover, .div2 > p:hover {
+    color: #26BBA4;
+  }
+  
+  footer > .social-icons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20%;
+    margin-top: 20%;
+  }
+  
+  footer > .social-icons > img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    padding: 15% 0;
+  }
+  
+  header > nav {
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+  }
+  
+  header > nav img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  section {
+    width: 100%;
+  }
+
+  section > div {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    padding: 0 3%;
+  }
+  
+  section > div > .div1 > h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 6%;
+  }
+  
+  section > div > .div1 > p {
+    font-size: 1.5rem;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    max-width: 95%;
+    padding-bottom: 15%;
+  }
+  
+  section > div > .div2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  section > div > .div2 > button {
+    width: 100%;
+    padding: 2rem 1.1rem;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10%;
+  }
+  
+  section > div > .div2 > button:hover {
+    background-color: #53dfca;
+  }
+  
+  section > div > .div2 > button:last-child:hover {
+    background: #8e9af5;
+  }
+  
+  .keeping {
+    width: 100%;
+    margin: 15% 0 20% 0;
+  }
+  
+  .keeping > div {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .keeping > div > h3 {
+    font-size: 2.5rem;
+    letter-spacing: -0.457px;
+    padding-bottom: 8%;
+  }
+  
+  .keeping > div > p {
+    font-size: 1.5rem;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+  }
+  
+  .computer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10%;
+  }
+  
+  .computer > .div1 {
+    width: 100%;
+  }
+  
+  .computer > .div1 > img {
+    width: 85%;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+  }
+  
+  .computer > .div2 {
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 24%;
+    gap: 56px;
+  }
+  
+  .computer > .div2 > .semi-div {
+    width: 90%;
+    /* text-align: center; */
+  }
+  
+  .computer > .div2 > .semi-div > h5 {
+    font-size: 2.5rem;
+    letter-spacing: -0.391px;
+    padding-bottom: 3%;
+  }
+  
+  .computer > .div2 > .semi-div > p {
+    font-size: 1.5rem;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+  }
+  
+  .access-section {
+    width: 100%;
+    margin: 34% 0 0 0;
+  }
+  
+  .access-section > div {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .access-section > div > h3 {
+    font-size: 2.5rem;
+    letter-spacing: -0.457px;
+    padding-bottom: 4%;
+  }
+  
+  .access-section > div > p {
+    font-size: 1.5rem;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    padding-bottom: 14%;
+  }
+  
+  .access-section > .image {
+    width: 85%;
+  }
+  
+  .access-section > .image > img {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .workflow {
+    width: 100%;
+    text-align: center;
+    margin: 20% 0;
+    padding: 0 3%;
+  }
+  
+  .workflow > h3 {
+    font-size: 2.5rem;
+    letter-spacing: -0.457px;
+  }
+  
+  .workflow > p{
+    font-size: 1.5rem;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+  }
+  
+  .icons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+    gap: 15%;
+    padding: 0;
+    margin: 25% 0;
+  }
+  
+  .icons > .create {
+    width: 90%;
+  }
+  
+  .icons > .create > img {
+    width: 15%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+  }
+  
+  .icons > .create:nth-child(2) img {
+    width: 15%;
+    padding-bottom: 8%;
+  }
+  
+  .icons > .create > h5 {
+    font-size: 2.5rem;
+    line-height: normal;
+    letter-spacing: -0.391px;
+  }
+  
+  .icons > .create > p {
+    font-size: 1.5rem;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    max-width: 100%;
+  }
+  
+  .logos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+    gap: 30%;
+    padding: 0 5%;
+    margin: 60% 0;
+  }
+  
+  .logos > .google {
+    width: 50%;
+  }
+  
+  .logos > .google > img {
+    width: 100%;
+  }
+  
+  .clipboard {
+    width: 100%;
+    align-content: center;
+    /* margin: 55% 0; */
+    padding: 50% 0 20% 0;
+  }
+  
+  .clipboard > div {
+    width: 90%;
+    margin: 0 auto;
+    /* padding: 0 5%; */
+  }
+  
+  .clipboard > div > h3 {
+    font-size: 2.5rem;
+    letter-spacing: -0.457px;
+    padding-bottom: 5%;
+  }
+  
+  .clipboard > div > p {
+    font-size: 1.5rem;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    max-width: 100%;
+    padding-bottom: 15%;
+  }
+  
+  .clipboard > .btn {
+    gap: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .clipboard > .btn > button {
+    /* margin: 0 auto; */
+    width: 100%;
+    padding: 2rem 1.1rem;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10%;
+  }
+  
+  .clipboard > .btn > button:hover {
+    background-color: #53dfca;
+  }
+  
+  .clipboard > .btn > button:last-child:hover {
+    background: #8e9af5;
+  }
+  
+  footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 20%;
+    margin-top: 10%;
+  }
+  
+  footer > .image {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35%;
+  }
+  
+  footer > .image > img {
+    width: 70%;
+  }
+  
+  footer > .div1 {
+    text-align: center;
+    width: 100%;
+  }
+  
+  footer > .div1 > p, .div2 > p {
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    text-align: center;
+    padding: 0 0 14% 0;
+  }
+  
+  footer > .div1 > p:hover, .div2 > p:hover {
+    color: #26BBA4;
+  }
+  
+  footer > .social-icons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20%;
+    margin-top: 20%;
+  }
+  
+  footer > .social-icons > img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 800px) {
+  section > div > .div2 > button {
+    width: 100%;
+    padding: 2rem 1.4rem;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10%;
+  }
+
+  .computer > .div2 {
+    width: 50%;
+    text-align: left;
+    padding-top: 0;
+    gap: 16px;
+  }
+
+  .computer > .div2 > .semi-div {
+    width: 100%;
+  }
+
+  .computer > .div2 > .semi-div > p {
+    font-size: 1rem;
+  }
+
+  .clipboard > .btn > button {
+    /* margin: 0 auto; */
+    width: 100%;
+    padding: 2rem 1.4rem;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10%;
+  }
+}
